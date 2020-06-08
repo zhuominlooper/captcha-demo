@@ -1,0 +1,22 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    
+}
+canvas{
+    border: 1px solid rgb(136, 131, 131);
+    border-radius: 4px;
+    
+}
+input{
+    display: block;
+    height: 28px;
+
+}
+div{
+  margin-left: 45.5%;  
+  margin-bottom: 10px;
+}

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/x-icon" href="./test.jfif">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>验证码实现</title>
+    <link rel="stylesheet" href="./demo.css"> 
+</head>
+<body onload="onLoadPage()">
+    <canvas #canvas id="myCanvas" onclick="onLoadPage()" width="120" height="36"></canvas>
+    <div>    <input type="text" id='input' placeholder="点击验证码刷新"/></div>
+
+    <button onclick="clickLogin()">提交</button>
+    <script src="./demo.js"></script>
+</body>
+</html>
